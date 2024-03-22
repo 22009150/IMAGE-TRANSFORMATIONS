@@ -30,10 +30,12 @@ Thus the program is executed in google colab.
 
 
 ## Program:
-```python
-Developed By:Archana k 
-Register Number:212222240011
-i)Image Translation
+```
+### Developed By:Archana k 
+### Register Number:212222240011
+
+### i)Image Translation
+```
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -71,9 +73,9 @@ plt.axis('off')
 # Show the resulting image
 plt.imshow(translated_image)
 plt.show()
-
-ii) Image Scaling
-
+```
+## ii) Image Scaling
+```
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -102,7 +104,10 @@ show_image(image)
 print("Scaled Image:")
 show_image(scaled_image)
 
-iii)Image shearing
+```
+
+## iii)Image shearing
+```
 import numpy as np
 from matplotlib import pyplot as plt
 
@@ -166,7 +171,7 @@ reflected_image_both = cv2.flip(image, -1)
 
 
 # Display original and reflected images
-```
+
 print("Original Image:")
 show_image(image)
 print("Reflected Horizontally:")
@@ -179,8 +184,8 @@ show_image(reflected_image_both)
 ```
 
 
-v)Image Rotation
-
+## v)Image Rotation
+```
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -214,11 +219,11 @@ show_image(image)
 print("Rotated Image:")
 show_image(rotated_image)
 
+```
 
 
-
-vi)Image Cropping
-
+## vi)Image Cropping
+```
 
 import cv2
 import numpy as np
@@ -241,37 +246,32 @@ y = 50   # Starting y-coordinate
 width = 200  # Width of the cropped region
 height = 150  # Height of the cropped region
 
-# Perform image cropping
+###  Perform image cropping
+
 cropped_image = image[y:y+height, x:x+width]
 
-# Display original and cropped images
+#### Display original and cropped images
+
 print("Original Image:")
 show_image(image)
 print("Cropped Image:")
 show_image(cropped_image)
-
-
-
-
-
-
-
 ```
 ## Output:
 
 
 ### i)Image Translation
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/c38054b6-bc50-42cb-9d1b-ca1572a7a3e5)
 
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/c7b2fdac-9dc8-4e88-b74a-f8bef2f8ec30)
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/c38054b6-bc50-42cb-9d1b-ca1572a7a3e5)
 
-<br>
-<br>
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/c7b2fdac-9dc8-4e88-b74a-f8bef2f8ec30)
+
+
 
 
 ### iii)Image 
-<br>
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/a4229504-1388-41a8-92cb-39bf4ba20b78)
+
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/a4229504-1388-41a8-92cb-39bf4ba20b78)
 
 <br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/a340fc5c-3ec7-4106-b382-58abbffa019f)
 
@@ -289,23 +289,21 @@ show_image(cropped_image)
 
 
 ### v)Image reflection
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/298dc48a-6999-47d9-98dd-c4102cd5d541)
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/298dc48a-6999-47d9-98dd-c4102cd5d541)
 
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/1886a6ac-3076-4405-b546-ff5e6868c8d2)
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/1886a6ac-3076-4405-b546-ff5e6868c8d2)
 
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/8441b864-364e-4347-8dbb-9024cbb56817)
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/8441b864-364e-4347-8dbb-9024cbb56817)
 
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/fcf1a8d3-5a1f-417b-b7c4-3376246878a9)
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/fcf1a8d3-5a1f-417b-b7c4-3376246878a9)
 
 
 
 
 ### v)Image rotation
-<br>
-<br>
-<br>
-<br>
-### vi) Image cropping 
+
+## vi) Image cropping
+
 ![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/9466bdd9-0202-4e2e-a8db-77de4ef4c2d7)
 ![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/f71fea87-2b7f-4936-94a0-4d3b3ad77b57)
 
