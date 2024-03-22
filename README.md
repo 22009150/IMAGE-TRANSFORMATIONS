@@ -38,16 +38,19 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-# Read the input image
+## Read the input image
+
 input_image = cv2.imread("cat.jpg")
 
-# Convert from BGR to RGB so we can plot using matplotlib
+## Convert from BGR to RGB so we can plot using matplotlib
+
 input_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB)
 
 # Disable x & y axis
 plt.axis('off')
 
-# Show the image
+##  Show the image
+
 plt.imshow(input_image)
 plt.show()
 
@@ -144,19 +147,26 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
+
 image_url = '4 nature.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Reflect the image horizontally
 reflected_image_horizontal = cv2.flip(image, 1)
 
+
 # Reflect the image vertically
+
 reflected_image_vertical = cv2.flip(image, 0)
+
+
 
 # Reflect the image both horizontally and vertically
 reflected_image_both = cv2.flip(image, -1)
 
+
 # Display original and reflected images
+```
 print("Original Image:")
 show_image(image)
 print("Reflected Horizontally:")
@@ -166,7 +176,7 @@ show_image(reflected_image_vertical)
 print("Reflected Both:")
 show_image(reflected_image_both)
 
-
+```
 
 
 v)Image Rotation
