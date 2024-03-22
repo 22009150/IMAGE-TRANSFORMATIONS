@@ -33,26 +33,23 @@ Thus the program is executed in google colab.
 ```
 ### Developed By:Archana k 
 ### Register Number:212222240011
-
-### i)Image Translation
+```
+i)Image Translation
 ```
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-## Read the input image
-
+# Read the input image
 input_image = cv2.imread("cat.jpg")
 
-## Convert from BGR to RGB so we can plot using matplotlib
-
+# Convert from BGR to RGB so we can plot using matplotlib
 input_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB)
 
 # Disable x & y axis
 plt.axis('off')
 
-##  Show the image
-
+# Show the image
 plt.imshow(input_image)
 plt.show()
 
@@ -74,7 +71,7 @@ plt.axis('off')
 plt.imshow(translated_image)
 plt.show()
 ```
-## ii) Image Scaling
+ii) Image Scaling
 ```
 import cv2
 import numpy as np
@@ -103,10 +100,9 @@ print("Original Image:")
 show_image(image)
 print("Scaled Image:")
 show_image(scaled_image)
-
 ```
 
-## iii)Image shearing
+iii)Image shearing
 ```
 import numpy as np
 from matplotlib import pyplot as plt
@@ -137,9 +133,9 @@ print("Original Image:")
 show_image(image)
 print("Sheared Image:")
 show_image(sheared_image)
-
-
+```
 iv)Image Reflection
+```
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -152,26 +148,19 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-
 image_url = '4 nature.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Reflect the image horizontally
 reflected_image_horizontal = cv2.flip(image, 1)
 
-
 # Reflect the image vertically
-
 reflected_image_vertical = cv2.flip(image, 0)
-
-
 
 # Reflect the image both horizontally and vertically
 reflected_image_both = cv2.flip(image, -1)
 
-
 # Display original and reflected images
-
 print("Original Image:")
 show_image(image)
 print("Reflected Horizontally:")
@@ -180,11 +169,8 @@ print("Reflected Vertically:")
 show_image(reflected_image_vertical)
 print("Reflected Both:")
 show_image(reflected_image_both)
-
 ```
-
-
-## v)Image Rotation
+v)Image Rotation
 ```
 import cv2
 import numpy as np
@@ -220,9 +206,7 @@ print("Rotated Image:")
 show_image(rotated_image)
 
 ```
-
-
-## vi)Image Cropping
+vi)Image Cropping
 ```
 
 import cv2
@@ -246,69 +230,57 @@ y = 50   # Starting y-coordinate
 width = 200  # Width of the cropped region
 height = 150  # Height of the cropped region
 
-###  Perform image cropping
-
+# Perform image cropping
 cropped_image = image[y:y+height, x:x+width]
 
-#### Display original and cropped images
-
+# Display original and cropped images
 print("Original Image:")
 show_image(image)
 print("Cropped Image:")
 show_image(cropped_image)
+
 ```
 ## Output:
-
-
-### i)Image Translation
-
-![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/c38054b6-bc50-42cb-9d1b-ca1572a7a3e5)
-
-![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/c7b2fdac-9dc8-4e88-b74a-f8bef2f8ec30)
+i)Image Translation:
 
 
 
-
-### iii)Image 
-
-![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/a4229504-1388-41a8-92cb-39bf4ba20b78)
-
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/a340fc5c-3ec7-4106-b382-58abbffa019f)
-
-<br>
-
-
-### iv)Image sheamind
-<br>
-<br>
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/73f816cf-9ce7-46ca-8b28-1417a7bbfc45)
-
-<br>![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/1d22c0fc-cdb0-4c0e-ba95-be604c9372b2)
+ii) Image Scaling:
 
 
 
 
-### v)Image reflection
-![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/298dc48a-6999-47d9-98dd-c4102cd5d541)
-
-![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/1886a6ac-3076-4405-b546-ff5e6868c8d2)
-
-![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/8441b864-364e-4347-8dbb-9024cbb56817)
-
-![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/fcf1a8d3-5a1f-417b-b7c4-3376246878a9)
+iii)Image shearing:
 
 
 
 
-### v)Image rotation
 
-## vi) Image cropping
-
-![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/9466bdd9-0202-4e2e-a8db-77de4ef4c2d7)
-![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/f71fea87-2b7f-4936-94a0-4d3b3ad77b57)
+iv)Image Reflection:
 
 
 
-## Result: 
 
+
+
+
+
+v)Image Rotation:
+
+
+![Uploading image.png…]()
+
+
+![Uploading image.png…]()
+
+vi)Image Cropping:
+
+
+![Uploading image.png…]()
+
+
+![Uploading image.png…]()
+
+
+## Result:
 Thus the different image transformations such as Translation, Scaling, Shearing, Reflection, Rotation and Cropping are done using OpenCV and python programming.
