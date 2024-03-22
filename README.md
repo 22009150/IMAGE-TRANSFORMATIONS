@@ -243,20 +243,30 @@ show_image(cropped_image)
 ## Output:
 i)Image Translation:
 
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/e41ebd11-750a-4e0f-a494-73734919b9db)
 
 
 ii) Image Scaling:
 
 
 
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/f28a630a-5adc-4c18-8099-05df815c790e)
+
 
 iii)Image shearing:
 
+
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/733b0333-fc1b-4602-b193-553da444ef0f)
 
 
 
 
 iv)Image Reflection:
+
+
+
+
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/a5d2d9a3-a568-4723-b654-9114930cf2f6)
 
 
 
@@ -268,18 +278,23 @@ iv)Image Reflection:
 v)Image Rotation:
 
 
-![Uploading image.png…]()
+
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/7d7b36d7-0ddc-4712-aa31-12926adc3170)
 
 
-![Uploading image.png…]()
+
+
+
 
 vi)Image Cropping:
 
 
-![Uploading image.png…]()
+
+![image](https://github.com/22009150/IMAGE-TRANSFORMATIONS/assets/118708624/9ecff402-d348-40ae-ac4a-bc0f1a294f0e)
 
 
-![Uploading image.png…]()
+
+
 
 
 ## Result:
